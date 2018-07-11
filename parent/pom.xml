@@ -121,8 +121,8 @@
 			<!-- mybatis的分页插件 -->
 			<dependency>
 				<groupId>com.github.pagehelper</groupId>
-				<artifactId>pagehelper</artifactId>
-				<version>${pagehelper.version}</version>
+    			<artifactId>pagehelper</artifactId>
+    			<version>3.6.0</version>
 			</dependency>
 
 
@@ -287,4 +287,8 @@
 		</pluginManagement>
 	</build>
   
+	<modules>
+		<module>common</module>
+		<module>manager</module>
+	</modules>
 </project>
